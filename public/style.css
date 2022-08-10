@@ -100,4 +100,35 @@ select {
     #movieInfo {
         width: 85%;
     }
+    #playBtn {
+        margin-top: 20px;
+        font-size: 70px;
+        padding: 7px 10px;
+        border-radius: 10px;
+        border-style: none;
+        background-color: #B97828;
+        color: #fdc238;
+        cursor:  pointer;
+    }
+    #moviePoster, #movieText {
+        width:  80%;
+        float:  left;
+    }
+    #likeBtn, #dislikeBtn {
+        padding: 15px 25px;
+        font-size: 50px;
+        border-radius: 12px;
+        border-style: none;
+        cursor:  pointer;
+    }
+    label {
+        display: block;
+        font-size: 50px;
+        margin-bottom: 5px;
+    }
+    
+    select {
+        width: 200px;
+        height: auto;
+    }
 }
